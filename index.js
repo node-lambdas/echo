@@ -1,4 +1,4 @@
-import { lambda } from 'node-lambdas/v1.js';
+import { lambda } from 'node-lambdas';
 
 lambda(function(input, output) {
     input.pipe(output);
