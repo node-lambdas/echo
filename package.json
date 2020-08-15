@@ -1,5 +1,8 @@
 {
   "name": "@node-lambdas/echo",
-  "version": "0.0.0",
-  "type": "module"
+  "version": "1.0.0",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  }
 }
