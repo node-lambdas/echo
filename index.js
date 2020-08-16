@@ -1,3 +1,7 @@
-import { lambda } from 'node-lambdas';
+import { lambda } from '@node-lambdas/core';
 
-lambda((input, output) => input.pipe(output));
+const configutation = {
+  version: 1,
+};
+
+lambda(configutation, (input, output) => input.pipe(output));
